@@ -1,0 +1,141 @@
+Evaluator: Gernot Mayer
+Alter: 46
+Geschlecht: männlich
+Beruf: Handwerker
+Gerät: Smartphone Samsung Galaxy A20e
+Betriebssystem und Version: Android Version 9
+Webbrowser und Version: Google Chrome Version 11.3.9.21.arm64
+Ad Blocker: Keinen
+Internetverbindung Typ: A1 Wlan-Router, DSL
+Internetverbindung Download Geschwindigkeit: 16 Mbit/s
+Bildschirmgröße: 5,8″
+Bildschirmauflösung: 1560x720
+Browserauflösung: 1560x720
+Datum der Evaluierung: 2020-04-10
+Uhrzeit der Evaluierung: 12:30 - 13:15
+
+
+Positive Beobachtungen
+----------------------
+
+-
+
+
+Probleme
+--------
+
+o 3/4 der Seite ist leer
+
+  Die erste Seite ist nur in der oberen linken Ecke befüllt.
+
+  Video clip:	n21-jm-leer.mp4
+
+  Heuristik:	Ästhetik und minimales Design
+
+  Wie reproduzierbar:	Seite aufrufen
+
+
+o Gemischte Sprache
+
+  Es ist zwar soweit alles auf deutsch übersetzt (vermutlich auto-
+  translation; siehe "Dreifuss") aber "Vienna" nicht.
+
+  Screenshot:	n11-jm-sprache_gemischt.jpg  
+
+  Heuristik:	Sprache des Benutzers verwenden
+
+  Wie reproduzierbar:	Seite mit deutschem Smartphone aufrufen
+
+
+o Plötzlich alles auf englisch
+
+  Sobald man zu "Tripod" weitergeleitet wird ist die gesamte Seite auf englisch.
+ 
+  Video clip:	n12-jm-englisch.mp4
+
+  Heuristik:	Sprache des Benutzers verwenden
+
+  Wie reproduzierbar:	Hauptseite -> Dreifuss
+
+
+o Die gratis Registrierung ist kaum auffindbar
+
+  Wenn man nicht auf "Pricing" und dann auf "Sign Up" klickt wird einem
+  das gratis Angebot nicht angezeigt.
+
+  Video clip:	n13-jm-kein_gratis.mp4
+
+  Heuristiken:	Konsistenz, Hilfe und Dokumentation
+
+  Wie reproduzierbar:	Hauptseite -> Dreifuss -> Pricing -> Sign Up
+
+
+
+o Das Erstellen eines Accounts (einfach alles)
+
+  Wenn man einen Account erstellen will wird ein kleines,
+  schlecht formatiertes Fenster aufgerufen, bei welchem
+  man seine Daten 2 mal eingeben muss bis man weitergeleitet
+  wird. Danach muss man seine Daten erneut eingeben und obwohl
+  alle Passwörter bis auf eines den Richtlinien entsprochen
+  haben, wurde ich erst beim 3. weitergeleitet.
+
+  Video clip:	n09-jm-sign_up.mp4
+
+  Heuristiken:	Konsistenz, Fehlervermeidung, Flexibilität und Effizienz,
+		Gute Fehlervermeidung
+
+  Wie reproduzierbar:	Hauptseite -> Dreifuss -> Pricing -> Sign Up
+			-> Free -> runter scrollen -> Free Sign Up
+
+
+
+o Schlechte Darstellung auf Smartphones
+
+  Die Menüs sind bei Tripod sehr komprimiert und an manchen
+  Stellen kaum leserlich.
+
+  Screenshot:	n17-jm-zusammengedrücktes_menü.jpg
+  Video clip:	n17-jm-zusammengedrücktes_menü.mp4
+
+  Heuristik:	Ästhetik und minimales Design
+
+  Wie reproduzierbar:	Hauptseite -> Dreifuss -> Pricing
+			Nach erstellen eines Tripod-Accounts wird man automatisch
+			auf die Seite geleitet (vom Video clip)
+
+
+o Unerklärliche leere Bildschirme
+
+  Wenn man sein Passwort ändern will, kommt es zu sehr langen
+  Ladezeiten ohne Erklärung.
+
+  Video clip:	n14-jm-laden.mp4
+
+  Heuristik:	Rückmeldung des Systemzustandes (Feedback)
+
+  Wie reproduzierbar:	Hauptseite -> Dreifuss -> Login -> Reset Password
+
+
+o Keine sichere Verbindung
+
+  Tripod hat kein SSL-Certificate und damit keine sichere Verbindung!
+
+  Screenshot:	n10-jm-kein_ssl.jpg
+
+  Heuristik:	Fehlervermeidung
+
+  Wie reproduzierbar:	Hauptseite -> Dreifuss
+
+
+o Account weg
+
+  Nach erstellen eines Accounts (wie in Video clip n09-jm-sign_up.mp4 zu sehen ist)
+  konnte ich mich nicht damit einloggen. Beim versuchten Zurücksetzens des
+  Passworts wurde dann gesagt, dass der Account nicht existiere.
+
+  Screenshot:	n02-jm-account_weg.jpg
+
+  Heuristik:	Fehlervermeidung
+
+  Wie reproduzierbar:	Gratis Tripod-Account erstellen

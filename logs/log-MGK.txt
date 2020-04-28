@@ -1,0 +1,174 @@
+Evaluator: Kenneth Pack
+Alter: 30
+Geschlecht: männlich
+Gerät: MacBook Pro
+Betriebssystem und Version: MacOS High Sierra 10.13.6
+Webbrowser und Version: Safari 13.0.5
+Internetverbindung Typ: HoT Data Unlimited, LTE Cube
+Internetverbindung Download Geschwindigkeit: 26,53 mbps
+Bildschirmgröße: 13,3″
+Bildschirmauflösung: 1280×800
+Browserauflösung: 1280×800
+Datum der Evaluierung: 2020-04-14
+Uhrzeit der Evaluierung: 17:00
+
+
+Positive Beobachtungen
+----------------------
+
+
+
+
+Probleme
+--------
+
+o Text ist auf Deutsch und Englisch
+
+  Obwohl auf der Startseite Deutsch ausgewählt wurde ist der Text auf der Job Seite 
+  durchmischt mit deutschen und englischen Elementen.
+
+  Screenshot(s):  n11-MGK-Deutsche_und_englische_Elemente.png
+  Video clip:     
+
+  Heuristik:  Sprache des Benutzers verwenden
+
+  Wie reproduzierbar:  lycos.de -> "Arbeitsplätze" anklicken
+
+
+o Ortserkennung funktioniert nicht
+
+  Die Seite zeigt an das ich in Klagenfurt bin.
+
+  Screenshot(s):  n26-MGK-Ort_wird_nicht_erkannt.png
+  Video clip:     
+
+  Heuristik:  Erkennen ist besser als erinnern
+
+  Wie reproduzierbar:  lycos.de aufrufen
+
+
+o Stadt bleibt in der Wetter-App nicht gespeichert, zurückverlinkung funktioniert nicht
+
+  Geht man auf die Wetterseite um den Ort zu wechseln und versucht dann über das Menü 
+  wieder zurück zur Startseite zu gelangen, bleibt der ausgewählte Ort nicht gespeichert.
+  Man wird auch zu Lycos.com zurück verlinkt wodurch sich °C in °F ändert.
+
+  Screenshot(s):  
+  Video clip: n24-MGK-Stadt_bleibt_nicht_gespeichert.mp4
+
+  Heuristik:  Konsistenz, Erkennen ist besser als erinnern
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zur Wetterseite wechseln und eine andere Stadt  
+  eingeben -> über das Menü auf der linken Seite wieder auf Lycos.de wechseln
+
+
+o Seite findet keine Joblistings in Graz weil, für den Benutzer unsichtbar, Deutschland 
+  voreingestellt ist
+
+  Wenn man nach z.B.: Graz sucht, findet die Seite keine Job Angebote. Der Englische Text
+  lässt den Benutzer glauben das es keine Job Angebote in Graz gibt.
+
+  Screenshot(s): n05-MGK-keine_Suchergebnise_Graz.png
+  Video clip: 
+
+  Heuristik:  Sprache des Benutzers verwenden, Fehlervermeidung
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln -> Österreichische 
+  Stadt ins Suchfeld eingeben.
+
+
+o Standort Einstellung für Österreich ist am Ende der Seite versteckt
+
+  Um Österreich als Standort einzustellen muss man ans Ende der Seite scrollen und eine kleine Österreichische 
+  Flagge anklicken
+
+  Screenshot(s): n16-MGK-Österreich_als_Standort.png
+  Video clip: 
+
+  Heuristik:  Erkennen ist besser als Erinnern
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln und ganz nach unten scrollen
+
+
+o Vorgeschlagenes Keyword Architektur findet keine Jobs die für Architekten Relevant wären
+
+  Wählt man aus den vorgeschlagenen Keywords Architektur aus, dann werden einem Jobs vorgeschlagen die einfach
+  das Wort Architektur in ihrem Werbetext beinhalten.
+
+  Screenshot(s): 
+  Video clip: n06-MGK-keine_Relevanten_Ergebnisse.mp4
+
+  Heuristik:  Fehlervermeidung
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln und aus dem "Find Jobs by Category" Feld 
+  Architektur auswählen.
+
+
+o Klick auf Job Anzeige öffnet neues Fenster mit neuer URL
+
+  Möchte man zu einem Job Angebot mehr erfahren und klickt darauf öffnet sich ein neues Fenster mit einer neuen 
+  URL. Es ist auf den ersten Blick nicht ersichtlich wie beide Seiten miteinander zusammenhängen.
+
+  Screenshot(s): 
+  Video clip: n20-MGK-neue_URL.mp4
+
+  Heuristik:  Konsistenz
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln und nach irgendetwas suchen -> auf 
+  irgendein Suchergebnis klicken
+
+
+o Suchwort bleibt im Formular stehen
+
+  Hat man nach etwas gesucht und geht wieder auf die Startseite zurück bleibt das Suchwort im Formular Feld. Wenn 
+  man jetzt über die Links nach etwas neuem sucht bleibt das vorige Suchwort immer noch im Formular und 
+  impliziert das es etwas mit dem Ergebnis zu tun hat, obwohl dem nicht so ist.
+
+  Screenshot(s): 
+  Video clip: n25-MGK-Suchwort_bleibt.mp4
+
+  Heuristik:  Ästhetik und minimales Design, Fehlervermeidung
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln und nach irgendetwas mit dem Suchfeld 
+  suchen -> zur Job Startseite wechseln -> über "Find Jobs by Category" Feld nach was neuem suchen
+
+
+o Suchergebnisse lassen sich nicht nach Datum ordnen
+
+  Versucht man seine Suchergebnisse nach Datum zu Ordnen kommt ein Text der sich auf einen nicht genannten Fehler 
+  bezieht.
+
+  Screenshot(s): n01-MGK-nicht_genannte_FehlerMeldung.png
+  Video clip: 
+
+  Heuristik:  Gute Fehlermeldungen
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln und nach irgendetwas suchen -> Suche nach
+  Datum sortieren versuchen.
+
+
+o Advanced Job Search führt zu einer Fehlermeldung
+
+  Versucht man seine Suchergebnisse mit Hilfe der Advanced Job Search noch genauer zu definieren führt das zu 
+  einer nicht genannten Fehlermeldung.
+
+  Screenshot(s): n07-MGK-nicht_genannte_FehlerMeldung.png
+  Video clip: 
+
+  Heuristik:  Gute Fehlermeldungen
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln -> nach unten scrollen und Advanced Job 
+  Search auswählen
+
+
+o Privacy Policy ist falsch verlinkt
+
+  Versucht man die privacy policy der Job Suchmaschine zu lesen wird man auf Lycos.com zurückverlinkt.
+
+  Screenshot(s): 
+  Video clip: n08-MGK-privacy_policy.mp4
+
+  Heuristik:  Konsistenz, Hilfe und Dokumentation
+
+  Wie reproduzierbar:  lycos.de aufrufen -> zum Job-Suchportal wechseln -> nach unten scrollen und Privacy Policy
+  anklicken

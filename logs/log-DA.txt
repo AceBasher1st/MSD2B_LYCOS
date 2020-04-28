@@ -1,0 +1,160 @@
+Evaluator: Gertrude Maier
+Alter: 70
+Geschlecht: Weiblich
+Gerät: Stand-PC Omen HP
+Betriebssystem und Version: Windows 10 Home
+Webbrowser und Version: Firefox Version 75.0 (64-bit) – Deutsch
+Ad Blocker: AdBlock Plus
+Internetverbindung Typ: HiWay Combi 30
+Internetverbindung Download Geschwindigkeit: Downl 30/Upl 3 mbps
+Bildschirmgröße: 21,6″
+Bildschirmauflösung: 1680×1050
+Browserauflösung: 1680×1050
+Datum der Evaluierung: 2020-04-14
+Uhrzeit der Evaluierung: 09:00-11:00
+
+
+Positive Beobachtungen
+----------------------
+
+o	Ortserkennung sehr gut
+
+	Orterkennung und die Temperatur-Einheit wurden richtig eingestellt/erkannt Die Ortserkennung funktioniert in sowohl in Firefox (mit AdBlocker), als auch in Chrom (kein AdBlocker) 
+	
+	Screenshot: p03-da-ortserkennung_c und p03-da-ortserkennung_ff
+	Video: /
+	
+	Wie reproduzierbar: Seite aufrufen
+
+
+o	Schriftgrößen-Anpassung
+
+	Bei der „weather“ Seite wird die im Browser voreingestellte Schriftgrößenänderung übernommen
+
+	Screenshot: /
+	Video: p04-da-schriftgrößenänderung
+
+	Wie reproduzierbar: In den Browsereinstellungen die Schriftgröße auf gewollte Größe umstellen -> Seite aufrufen -> auf die Orts-/Temperaturanzeige klicken
+ 
+
+o	Werbung
+
+	Es sind weniger Werbeanzeigen (besonders in den ersten Ergebnissen) als in anderen Suchmaschinen (wie zum Beispiel Google)
+
+	Screenshot: p02-da-werbung (siehe oben rechts beim „AdBlocker“-Icon)
+	Video: /
+
+	Wie reproduzierbar: Seite aufrufen -> beliebigen Suchbegriff eingeben
+
+
+o	Erkennung bei Rechtschreibfehlern
+
+	Sogar wenn ich "härrenpullover" oder "härrenpolllover" in die Suchleiste eingebe, findet es noch relevante Seiten
+
+	Screenshot: p01-da-rechtschreibung_1 und p01-da-rechtschreibung_2
+	Video: /
+
+	Wie reproduzierbar: Seite aufrufen -> Suchbegriff "falsch"/mit Rechtschreibfehlern eingeben
+
+
+
+Probleme
+--------
+
+o	Umstellungen nicht möglich
+
+	im Chrome-Browser (kein AdBlocker) und in Firefox (mit AdBlocker) kann man °F nicht in °C, bzw. °C nicht in °F umstellen 
+
+	Screenshot: /
+	Video: n22-da-temperaturumstellung
+
+	Heuristik:  A05 Fehlervermeidung 
+
+	Wie reproduzierbar: Seite aufrufen -> in die obere linke Ecke auf die Temperatur klicken -> auf den kleinen orangenen Button drücken der „°F“ oder „°C“ anzeigt
+
+
+o	Ortserkennung funktioniert, aber nicht die Temeratur-Einheit
+
+	im Chrome-Browser (kein AdBlocker) werden „°F“ statt „°C“ angezeigt 
+
+	Screenshot: n23-da-temperatur_c
+	Video: /
+
+	Heuristik:  A04 Konsistenz und A05 Fehlervermeidung
+
+	Wie reproduzierbar: Seite aufrufen 
+
+
+o	Schriftgrößen-Anpassung
+
+	Die Startseite und auch die Seiten der Suchmaschine übernehmen nicht die im Browser voreingestellte Schriftgrößenänderung
+
+	Screenshot: /
+	Video: n18-da-schriftgrößenänderung
+
+	Heuristik:  A04 Konsistenz und A08 Ästhetik und minimales Design
+
+	Wie reproduzierbar: In den Browsereinstellungen die Schriftgröße auf gewollte Größe umstellen -> Seite aufrufen (-> etwas in die Suchleiste eintippen + Enter-Taste)
+
+
+o	Suchleisten Eingabe
+
+	Wenn man den gleichen Begriff mehrmals hintereinander sucht, wird er nicht vorgeschlagen oder ist weiter oben in den „vorgeschlagenen-Begriffen“
+
+	Screenshot: /
+	Video: n15-da-suchleisten-begriffe
+
+	Heuristik:  A06 Erkennen ist besser als Erinnern und A07 Flexibilität und Effizienz
+
+	Wie reproduzierbar: etwas in die Suchleiste eingeben -> den gleichen Begriff nochmals eingeben
+
+
+o	Sprache
+
+	Egal ob der Browser auf Englisch oder Deutsch eingestellt ist, Teile der Anzeige bleiben auf Englisch („Current Forcast“, „Weekly Forcast“, „city, state or zip code“,…)
+
+	Screenshot: n11-da-sprache
+	Video: /
+
+	Heuristik:  A02 Sprache des Benutzers verwenden  und A10 Hilfe und Dokumentation
+
+	Wie reproduzierbar: in den Browsereinstellungen die Sprachen umstellen -> Seite aufrufen -> auf die Wetter-Seite klicken
+
+
+o	Dropdown Menü
+
+	Bei dem Dropdown-Menü auf der „weather“ Seite kommt es zu Überlappungen, welche die Schrift teilweise unlesbar machen (nur bei größeren Schriftgrößen); bei der normalen Suchergebnisseite „hängt“ das Dropdownmenü kurz bei dem „Wetter“ Punkt, wird aber sofort lesbar
+	
+	Screenshot: n19-da-dropdown
+	Video: n19-da-dropdown_mild
+
+	Heuristik:  A08 Ästhetik und minimales Design
+
+	Wie reproduzierbar: Seite aufrufen -> auf die Wetter-Seite klicken -> Dropdownmenü anlklicken
+
+
+o	Variation der Suchergebnisse
+
+	In den ersten 10 Suchergebnissen kommen 3 Seiten/Firmen doppelt vor (bei Suchbegriff „herrenpullover“; bei Suchbegriff „kinderpullover“ sind es 5 mal die selbe Firma von 10 Angezeigten)
+	
+	Screenshot: /
+	Video: n03-da-variation
+
+	Heuristik:  A08 Ästhetik und minimales Design
+
+	Wie reproduzierbar: Seite aufrufen -> die oben genannten Suchbegriffe eingeben
+
+
+o	Anzahl der Suchergebnisse/“Weiter“-Button
+
+	Die ersten 10 Suchergebnisse verändern sich nicht, wenn ich auf den „weiter“ Button drücke
+
+	Screenshot: /
+	Video: n04-da-anzahl_der_suchergebnisse
+
+	Heuristik: A02 Sprache des Benutzers verwenden und A05 Fehlervermeidung und A09 Gute Fehlermeldungen
+
+	Wie reproduzierbar: Seite aufrufen -> Suchbegriffe eingeben -> auf den „weiter“ Button am Ende der Seite klicken
+
+
+
